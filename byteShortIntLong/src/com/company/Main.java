@@ -28,6 +28,8 @@ public class Main {
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
 
-        long myLongValue = 100L;
+        // Casting 
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+
     }
 }
