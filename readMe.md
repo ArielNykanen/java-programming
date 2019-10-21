@@ -15,5 +15,6 @@
    - **_boolean_**
  
  * **_String_**
+ * **_Operators_**
 
  
