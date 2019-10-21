@@ -28,8 +28,28 @@ public class Main {
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
 
-        // Casting 
-        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        // Casting
+        byte myNewByteValue = (byte) (myMinByteValue / 2); 
+        float myFloatValue = (float) 5.25;
+        // max and minimum values stored in float
 
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float minimum value " + myMinFloatValue);
+        System.out.println("Float maximum value " + myMaxFloatValue);
+        
+        // max and minimum values stored in Double
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double minimum value " + myMinDoubleValue);
+        System.out.println("Double maximum value " + myMaxDoubleValue);
+
+        // calculating pound to kilogram.
+
+        double myKilograms = 3d;
+        double onePound = 0.45359237;
+        double myResult = myKilograms / onePound;
+        System.out.println("My kilograms in pound are = " + myResult);
     }
 }
