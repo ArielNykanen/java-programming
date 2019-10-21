@@ -19,5 +19,7 @@
  * **_if statements_**
  * **_Keywords and expressions_**
  * **_Methods_**
-
+ * **_Loops_**
+    - **_for loop_**
+    - **_do/while loop_**
  
