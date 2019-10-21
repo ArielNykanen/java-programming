@@ -22,4 +22,7 @@
  * **_Loops_**
     - **_for loop_**
     - **_do/while loop_**
+ * **_Scanner_**
+ * **_OOP_**
+    - **_classes_**
  
