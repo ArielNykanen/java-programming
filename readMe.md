@@ -18,5 +18,6 @@
  * **_Operators_**
  * **_if statements_**
  * **_Keywords and expressions_**
+ * **_Methods_**
 
  
