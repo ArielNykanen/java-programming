@@ -7,6 +7,20 @@ public class Account {
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
+    public Account() {
+
+    }
+
+    public Account(String number, double balance, String customerName, String customerEmailAddress,
+                   String customerPhoneNumber) {
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmailAddress = customerEmailAddress;
+this.customerPhoneNumber = customerPhoneNumber;
+    }
+
+
     public void deposite(double depositAmount) {
         this.balance += depositAmount;
         System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
