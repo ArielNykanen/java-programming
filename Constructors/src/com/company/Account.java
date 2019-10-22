@@ -7,9 +7,17 @@ public class Account {
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
+    // this is a constructor for default values if you called the constructor without params
     public Account() {
-
+    this(
+            "234242",
+            2.40,
+            "Default Name",
+            "Default Email",
+            "Default Phone Number"
+    );
     }
+
 
     public Account(String number, double balance, String customerName, String customerEmailAddress,
                    String customerPhoneNumber) {

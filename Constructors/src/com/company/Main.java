@@ -13,6 +13,10 @@ public class Main {
                 "0343422345"
         );
 
+        Account defAccount = new Account();
+
+        defAccount.withDrawal(100.0);
+
         bobsAccount.withDrawal(100.0);
         bobsAccount.deposite(50.0);
         bobsAccount.withDrawal(100.0);
